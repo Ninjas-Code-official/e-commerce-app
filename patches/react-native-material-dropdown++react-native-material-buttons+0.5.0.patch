@@ -1,0 +1,105 @@
+diff --git a/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/button/index.js b/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/button/index.js
+index 40d89e6..e79ee35 100644
+--- a/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/button/index.js
++++ b/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/button/index.js
+@@ -25,20 +25,20 @@ export default class Button extends PureComponent {
+     disabled: false,
+   };
+ 
+-  static propTypes = {
+-    ...Ripple.propTypes,
++  // static propTypes = {
++  //   ...Ripple.propTypes,
+ 
+-    color: PropTypes.string,
++  //   color: PropTypes.string,
+ 
+-    shadeColor: PropTypes.string,
+-    shadeOpacity: PropTypes.number,
+-    shadeBorderRadius: PropTypes.number,
++  //   shadeColor: PropTypes.string,
++  //   shadeOpacity: PropTypes.number,
++  //   shadeBorderRadius: PropTypes.number,
+ 
+-    focusAnimation: PropTypes.instanceOf(Animated.Value),
+-    focusAnimationDuration: PropTypes.number,
++  //   focusAnimation: PropTypes.instanceOf(Animated.Value),
++  //   focusAnimationDuration: PropTypes.number,
+ 
+-    disabledColor: PropTypes.string,
+-  };
++  //   disabledColor: PropTypes.string,
++  // };
+ 
+   constructor(props) {
+     super(props);
+diff --git a/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/raised-button/index.js b/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/raised-button/index.js
+index e582c40..3b906c6 100644
+--- a/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/raised-button/index.js
++++ b/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/raised-button/index.js
+@@ -5,9 +5,9 @@ import { styles } from './styles';
+ import Button from '../button';
+ 
+ export default class RaisedButton extends PureComponent {
+-  static propTypes = {
+-    ...Button.propTypes,
+-  };
++  // static propTypes = {
++  //   ...Button.propTypes,
++  // };
+ 
+   constructor(props) {
+     super(props);
+diff --git a/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/raised-text-button/index.js b/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/raised-text-button/index.js
+index 54cf4b9..55e1743 100644
+--- a/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/raised-text-button/index.js
++++ b/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/raised-text-button/index.js
+@@ -11,14 +11,14 @@ export default class RaisedTextButton extends PureComponent {
+     disabledTitleColor: 'rgba(0, 0, 0, .26)',
+   };
+ 
+-  static propTypes = {
+-    ...RaisedButton.propTypes,
++  // static propTypes = {
++  //   ...RaisedButton.propTypes,
+ 
+-    title: PropTypes.string.isRequired,
+-    titleColor: PropTypes.string,
+-    titleStyle: Text.propTypes.style,
+-    disabledTitleColor: PropTypes.string,
+-  };
++  //   title: PropTypes.string.isRequired,
++  //   titleColor: PropTypes.string,
++  //   titleStyle: Text.propTypes.style,
++  //   disabledTitleColor: PropTypes.string,
++  // };
+ 
+   render() {
+     let {
+diff --git a/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/text-button/index.js b/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/text-button/index.js
+index 8b26f47..7f56faf 100644
+--- a/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/text-button/index.js
++++ b/node_modules/react-native-material-dropdown/node_modules/react-native-material-buttons/src/components/text-button/index.js
+@@ -16,14 +16,14 @@ export default class TextButton extends PureComponent {
+     shadeOpacity: 0.20,
+   };
+ 
+-  static propTypes = {
+-    ...Button.propTypes,
+-
+-    title: PropTypes.string.isRequired,
+-    titleColor: PropTypes.string,
+-    titleStyle: Text.propTypes.style,
+-    disabledTitleColor: PropTypes.string,
+-  };
++  // static propTypes = {
++  //   ...Button.propTypes,
++
++  //   title: PropTypes.string.isRequired,
++  //   titleColor: PropTypes.string,
++  //   titleStyle: Text.propTypes.style,
++  //   disabledTitleColor: PropTypes.string,
++  // };
+ 
+   render() {
+     let {
