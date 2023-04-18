@@ -1,4 +1,5 @@
 # React Native E-Commero UI Theme v4.0.0
+
 ![Project thumbnail](./contributingGuides/thumbnail.png)
 <br><br>
 E-commero is a beautifully designed and fully customizable E-commerce UI theme built in React Native, using Expo for both iOS and Android platforms. With its sleek aesthetics and adherence to best coding practices, it is the perfect starter kit for your next E-commerce project. It includes all essential components required for any E-commerce application such as Main Landing, Product Listing, Shopping Cart, Rating and Reviews, Editing Profile, Editing Address, Payment Screens, and Orders Screen. E-commero is built from scratch without using any frameworks or libraries, making it easy to customize components while keeping the code footprint minimal. With Ecommero, you can easily implement a real-world E-commerce application with minimum effort.
@@ -9,6 +10,7 @@ E-commero is a beautifully designed and fully customizable E-commerce UI theme b
 </p>
 
 ## Technologies Used
+
 Ecommero is made using some core libraries for handling navigation React Navigation is used for making layouts only flex is used. It is built using Expo.
 
 - React Native
@@ -16,8 +18,10 @@ Ecommero is made using some core libraries for handling navigation React Navigat
 - Expo
 
 ## Installation
+
 Ecommero is easy to install and use. Its focus is on good design so you don't have to make major changes in design as well as easy. The tools used in making Ecommero is to make development experience much simpler.
 Ecommero UI Theme will come with expo project.
+
 #### System Requirements
 
 - Globally installed node >= 14
@@ -55,3 +59,10 @@ Follow the documentation to install and get started with the development:
 - [Documentation](https://ecommero.gitbook.io/ecommero/)
 
 Happy coding!
+
+## Get the Latest News
+
+- [Facebook](https://www.facebook.com/ninjascodeofficial)
+- [Twitter](https://twitter.com/ninjascode1)
+- [Instagram](https://www.instagram.com/ninjascodeofficial/)
+- [LinkedIn](https://www.linkedin.com/company/14512538)
